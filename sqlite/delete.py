@@ -6,7 +6,7 @@ print('数据库连接成功')
 try:
 		curs = conn.cursor()
 		sql = '''
-             delete from student where name='张三'
+             delete from student where name='郑成功'
                '''
 		curs.execute(sql)
 		conn.commit()
